@@ -102,3 +102,144 @@ let oneCell=9;
 let sides=4;
 let totalCells=oneCell*(sides**2);
 console.log(`The total number of cells are ${totalCells}`)
+
+
+// 1. Simple Assignment =
+let age = 18;
+console.log(age);
+
+let penPrice = 15;
+console.log(penPrice);
+
+let daysInWeek = 7;
+console.log(daysInWeek);
+
+let city = "Ahmedabad";
+console.log(city);
+
+let piValue = 3.14159;
+console.log(piValue);
+
+
+// 2. Add and Assign +=
+let totalMarks = 200;
+totalMarks += 35;
+console.log(totalMarks);
+
+let accountBalance = 5000;
+accountBalance += 1200;
+console.log(accountBalance);
+
+let batteryPercentage = 45;
+batteryPercentage += 30;
+console.log(batteryPercentage);
+
+let playerScore = 1250;
+playerScore += 375;
+console.log(playerScore);
+
+let totalBooks = 840;
+totalBooks += 160;
+console.log(totalBooks);
+
+
+// 3. Subtract and Assign -=
+let waterVolume = 1000;
+waterVolume -= 375;
+console.log(waterVolume);
+
+let moneyLeft = 500;
+moneyLeft -= 180;
+console.log(moneyLeft);
+
+let batteryLevel = 90;
+batteryLevel -= 45;
+console.log(batteryLevel);
+
+let remainingBoxes = 2400;
+remainingBoxes -= 950;
+console.log(remainingBoxes);
+
+let gamePoints = 2000;
+gamePoints -= 625;
+console.log(gamePoints);
+
+
+// 4. Multiply and Assign *=
+let population = 5000;
+population *= 3;
+console.log(population);
+
+let dailyProduction = 120;
+dailyProduction *= 4;
+console.log(dailyProduction);
+
+let savingsAmount = 2000;
+savingsAmount *= 2;
+console.log(savingsAmount);
+
+let totalPlants = 50;
+totalPlants *= 5;
+console.log(totalPlants);
+
+let currentScore = 150;
+currentScore *= 3;
+console.log(currentScore);
+
+
+// 5. Divide and Assign /=
+let clothLength = 1200;
+clothLength /= 4;
+console.log(clothLength);
+
+let projectBudget = 80000;
+projectBudget /= 8;
+console.log(projectBudget);
+
+let sugarWeight = 960;
+sugarWeight /= 6;
+console.log(sugarWeight);
+
+let tripDistance = 450;
+tripDistance /= 5;
+console.log(tripDistance);
+
+let marksPerStudent = 2500;
+marksPerStudent /= 10;
+console.log(marksPerStudent);
+
+
+// Modulus and Assign %=
+let candiesLeft = 137;
+candiesLeft %= 10;
+console.log(candiesLeft);
+
+let studentsLeft = 250;
+studentsLeft %= 7;
+console.log(studentsLeft);
+
+let daysLeft = 1000;
+daysLeft %= 7;
+console.log(daysLeft);
+
+let chairsLeft = 89;
+chairsLeft %= 5;
+console.log(chairsLeft);
+
+let monthsLeft = 365;
+monthsLeft %= 12;
+console.log(monthsLeft);
+
+
+// Exponentiation and Assign **=
+let gardenSide = 10;
+gardenSide **= 2;
+console.log(gardenSide);
+
+let boxEdge = 4;
+boxEdge **= 3;
+console.log(boxEdge);
+
+let sizeFactor = 3;
+sizeFactor **= 2;
+console.log(sizeFactor);
