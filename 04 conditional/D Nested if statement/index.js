@@ -42,7 +42,15 @@ if (year%4==0){
 }
 
 //Q6
-
+let email = "ashokkhoja@gl.com";
+if (email.includes("@")){
+  let endingstr=email.endsWith(".com");
+  if(endingstr==true){
+    if (email.length>10){
+      console.log("valid email")
+    }
+  }
+}
 
 
 
