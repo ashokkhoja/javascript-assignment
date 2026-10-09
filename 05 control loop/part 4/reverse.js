@@ -21,7 +21,7 @@
 //  Q=3
 
  let n = 4729;
-//  let t= 1;                                              Q=3 
+ let t= 1;                                              Q=3 
 
  for (let i = n; i > 0; i = Math.floor(i / 10)) {
      let digit = i % 10;
