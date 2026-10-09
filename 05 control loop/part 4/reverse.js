@@ -10,7 +10,6 @@
 //  Q=2
  let a = "";
  let arr = [12, 45, 7, 23, 56, 89, 34];
-
  for (let i = arr.length - 1; i >= 0; i--) {
      if (arr[i] < 50) {
          a = arr[i];
