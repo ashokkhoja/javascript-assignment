@@ -30,7 +30,7 @@
      }
  }
 
- console.log(product);
+ console.log(t);
 
 
 //  Q=4
