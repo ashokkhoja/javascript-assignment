@@ -10,7 +10,6 @@
 //  Q=2
  let a = "";
  let arr = [12, 45, 7, 23, 56, 89, 34];
-
  for (let i = arr.length - 1; i >= 0; i--) {
      if (arr[i] < 50) {
          a = arr[i];
@@ -22,7 +21,7 @@
 //  Q=3
 
  let n = 4729;
-//  let t= 1;                                              Q=3 
+ let t= 1;                                              Q=3 
 
  for (let i = n; i > 0; i = Math.floor(i / 10)) {
      let digit = i % 10;
@@ -31,7 +30,7 @@
      }
  }
 
- console.log(product);
+ console.log(t);
 
 
 //  Q=4
