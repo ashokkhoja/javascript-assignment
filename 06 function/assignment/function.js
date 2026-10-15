@@ -98,3 +98,191 @@
 // }
 // console.log(studentMarks("Ashok", 456));
 // console.log(studentMarks("ram", 420));
+
+
+// Q=11/
+
+// Local Scope: A variable declared inside a function can be accessed only within that function.
+
+// Global Scope: A variable declared outside a function can be accessed both inside
+//  and outside the function, unless shadowed by a local variable.
+
+
+
+// function displayAge(){
+    
+//     let age=20;
+//     console.log(age)
+
+// }
+// displayAge()
+// console.log(age)  error in
+
+
+// let course="javascript";
+// function global(){
+//     console.log(course)
+// }
+// global()
+
+
+// Q=12
+
+// function analyzeStudent(name, m1, m2, m3) {
+//     let total = m1 + m2 + m3;
+//     let average = total / 3;
+
+//     return `${name} scored total ${total} with average ${average}`;
+// }
+// console.log(analyzeStudent("Ashok", 80, 90, 70));
+
+
+
+// Q=13
+
+
+// A function can contain another function.
+
+
+// function studentReport(name,m1,m2,m3){
+//     function total(a,b,c){
+//         return  a+b+c
+//     }
+//      let sum=total(m1,m2,m3)
+//     return name +" total marks:"+sum
+// }
+// console.log(studentReport("ashok",90,85,97))
+
+
+// Q=14
+
+// function generateReport(name,m1,m2,m3){
+    
+//    let  total=m1+m2+m3
+//    let avg=total/3
+//     return total,avg,avg>=40?"pass":"fail"
+     
+// }
+// console.log(generateReport("ashok",9,89,0))
+
+
+// Q=15
+
+// function sumofthree(a,b,c){
+//     return a+b+c
+// }
+// function averageoftwo(x,y){
+//     let total=x+y
+//     let avg=total/2
+//     return total,avg
+// }
+// function maxoftwo(a,b){
+//     if (a>b){
+//         return "a is grater then"
+//     }
+//     else{
+//         return "b is grater then"
+//     }
+// }
+// function fullname(first,last){
+//     return first+" "+last
+// }
+
+// console.log(sumofthree(1,1,1))
+// console.log(averageoftwo(5,5))
+// console.log(maxoftwo(9,8))
+// console.log(fullname("ashok","khoja"))
+
+
+// Q=16
+
+
+//   function calculateGrade(marks) {
+//     if (marks >= 90) {
+//         return "A+";
+//     } else if (marks >= 80) {
+//         return "A";
+//     } else if (marks >= 70) {
+//         return "B";
+//     } else if (marks >= 60) {
+//         return "C";
+//     } else if (marks >= 40) {
+//         return "D";
+//     } else {
+//         return "F";
+//     }
+// };
+
+// console.log(calculateGrade(95));
+// console.log(calculateGrade(82));
+// console.log(calculateGrade(67));
+// console.log(calculateGrade(45));
+// console.log(calculateGrade(32));
+
+
+// Q=17
+
+// function calculatefinalprice(price,discountpercent){
+//     let finalprice=price-(price*discountpercent/100)
+//     return finalprice
+// }
+// console.log(calculatefinalprice(45,10))
+
+
+// Q=18
+
+// function celsiustofahrenheit(c){
+//     return (c*9/5)+32
+// }
+// function fahrenheittocelsius(f){
+//     return (f-32)*5/9
+// }
+// console.log(celsiustofahrenheit(55))
+// console.log(fahrenheittocelsius(55))
+
+
+// Q=19
+
+// : No, a function expression cannot normally be called before it is defined because function expressions are not hoisted with their function values.
+
+// function calculateTotal(price, quantity) {
+//     function multiply() {
+//         return price * quantity;
+//     }
+//     return multiply();
+// }
+// console.log(calculateTotal(100, 5));
+
+
+// Q=20
+
+// function processStudent(name, m1, m2, m3) {
+//     function calculateMarks() {
+//         let total = m1 + m2 + m3;
+//         let average = total / 3;
+//         return { total, average };
+//     }
+//     let result = calculateMarks();
+//     let status = (m1 >= 33 && m2 >= 33 && m3 >= 33)
+//         ? "Pass" : "Fail";
+//     return `Name: ${name}
+// Total: ${result.total}
+// Average: ${result.average.toFixed(2)}
+// Result: ${status}
+// -------------------`;
+// }
+// console.log(processStudent("Rahul", 80, 70, 90));
+// console.log(processStudent("Amit", 60, 75, 85));
+// console.log(processStudent("Ravi", 25, 50, 60));
+
+// function compareAverages(avg1, avg2) {
+//     if (avg1 > avg2) {
+//         return "First student has higher average";
+//     } else if (avg2 > avg1) {
+//         return "Second student has higher average";
+//     } else {
+//         return "Both averages are equal";
+//     }
+// }
+
+// console.log(compareAverages(80, 15));
